@@ -3,45 +3,71 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>basic-html-css-example</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>My favorite food</h1>
+        <header>
+            <h1>Pizza</h1>
+        </header>
         <nav>
             <ul>
-                <li><a href="www.Pizza.com">Pizza</a></li>
-                <li><a href="www.Chocolate.com">Chocolate</a></li>
-                <li><a href="www.icecream.com">Ice cream</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">How to make pizza</a></li>
+                <li><a href="#">Top 10 restaurant</a></li>
             </ul>
         </nav>
-        <article>
-            <H2>Pizza</H2>
-            <h3>How to make Pizza</h3>
-            <p>Description how to make Pizza</p>
-            <h3>Top 10 Pizza in town</h3>
-            <p>Blog about Pizza</p>
-        
-            <!--article2-->
-            <H2>Chocolate</H2>
-            <h3>How to make Chocolate</h3>
-            <p>Description how to make Chocolate</p>
-            <h3>Top 10 Chocolate in town</h3>
-            <p>Blog about Chocolate</p>
-        </article>
+        <main>
+            <!--Left box-->
+            <section class="leftside">
+                <article class="box">
+                    <H2>History</H2>
+                    <h3>How to make Pizza</h3>
+                    <p>
+                        Pizza is an Italian, specifically Neapolitan, 
+                        dish typically consisting of a flat base of leavened wheat-based dough 
+                        topped with tomato, cheese, and other ingredients, baked at a high temperature, 
+                        traditionally in a wood-fired oven.
+                    </p>
+                </article>
 
-        <!--Research part-->
-        <nav aria-label="Secondary navigation">
-            <ul>
-            <li><a href="">More about food</a></li>
-            <li><a href="">Top 10 restaurant in Vancouver</a></li>
-            </ul>
-        </nav>
+                <!--Left-bottom box-->
+                <article id="img">
+                    <h3>image1</h3> 
+                </article>
+                <article id="img">
+                    <h3>image1</h3> 
+                </article>
+                <article id="img">
+                    <h3>image1</h3> 
+                </article>
+            </section>
+      
+            <!--Right box-->
+            <section class="rightside">
+                <article class="box">
+                    <H2>Pizza flavor ranks</H2>
+                </article>
 
+                <!--Right-bottom box-->
+                <article class="box">
+                    <div aria-label="Secondary navigation">
+                        <ol>
+                            <li><a href="#">Pepperoni</a></li>
+                            <li><a href="#">Mushroom</a></li>
+                            <li><a href="#">Four cheese</a></li>
+                            <li><a href="#">Meat lovers</a></li>
+                            <li><a href="#">Hawaiian</a></li>
+                        </ol>
+                    </div>
+                </article>
+            </section>
+        </main>
         <footer>
             <p>&hearts; Made with Hungriness</p>
-            <time datetime="2025-08-12T12:30">12:30PM August, 12 2025</time>
-        </footer>
-        
+            <time datetime="2025-08-13T01:00">01:00 AM August, 13 2025</time>
+        </footer>        
     </body>
 </html>
