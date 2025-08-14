@@ -40,6 +40,10 @@ section {
     margin: 10px
 }
 
+section p {
+    text-align: left;
+}
+
 .box {
     background-color: rgb(255, 242, 190);
     text-align: center;
@@ -59,7 +63,16 @@ section {
     display: inline-block;
     border-style: solid;
     border-width: 4px;
-    padding: 50px;
+    padding: 50px 64px;
+    margin-right: 8px;
+}
+
+#img:last-child {
+    margin-right: 0px;
+}
+
+#listrank {
+    padding: 42px;
 }
 
 ol {
